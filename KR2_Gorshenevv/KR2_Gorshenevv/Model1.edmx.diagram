@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="503141677ece4152a1efb2b3f5cf52eb" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Customer" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Employee" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Order" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Otdel" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Platform" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Role" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.Task" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_GorshenevModel.User" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Employee_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Order_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Task_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Order_Platform" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Task_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_Task_Otdel" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_GorshenevModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

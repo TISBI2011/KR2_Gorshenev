@@ -1,0 +1,20 @@
+﻿<Page x:Class="KR2_Gorshenevv.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KR2_Gorshenevv"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Grid Background="BlueViolet" HorizontalAlignment="Left" Width="800">
+        <StackPanel HorizontalAlignment="Center" Width="200" VerticalAlignment="Center">
+            <TextBlock Foreground="White" Text="Login"/>
+            <TextBox x:Name="TBLogin"/>
+            <TextBlock Foreground="White" Text="Password"/>
+            <TextBox x:Name="TBPassword"/>
+            <Button x:Name="BLogin"  Content="Войти" Click="BLogin_Click" Foreground="Purple"/>
+        </StackPanel>
+    </Grid>
+</Page>

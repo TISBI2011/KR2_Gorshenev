@@ -1,0 +1,33 @@
+﻿<Page x:Class="KR2_Gorshenevv.AddEmployee"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KR2_Gorshenevv"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddEmployee">
+
+    
+        <Grid Background="Violet">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="94*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.ColumnSpan="2">
+                <TextBlock Text="ID"/>
+                <TextBox Foreground="White" Text="{Binding ID}"/>
+                <TextBlock Text="FIO"/>
+                <TextBox Foreground="White" Text="{Binding FIO}"/>
+                <TextBlock Text="Adress"/>
+                <TextBox Text="{Binding Adress}"/>
+                <TextBlock Text="PhoneNumber"/>
+                <TextBox Text="{Binding PhoneNumber}"/>
+                <TextBlock Text="PassportSerial"/>
+                <TextBox Text="{Binding PassportSerial}"/>
+            <TextBlock Text="RoleID"/>
+            <ComboBox Text="RoleID" DisplayMemberPath="RoleID"/>
+            <Button x:Name="BAddEmployee" Content="Add Employee" Foreground="Purple"/>
+        </StackPanel>
+        </Grid>
+</Page>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KR2_Gorshenevv", "KR2_Gorshenevv\KR2_Gorshenevv.csproj", "{6B50AC72-00EC-4B52-9F5E-0BF9F6B47E43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{F883EC4C-D8B2-41D2-B921-EC56F7D1D71E}"
+	ProjectSection(SolutionItems) = preProject
+		KR2_Gorshenevv\LoginPage.xaml = KR2_Gorshenevv\LoginPage.xaml
+		KR2_Gorshenevv\LoginPage.xaml.cs = KR2_Gorshenevv\LoginPage.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B737AF2B-C171-4411-BC87-50F335820145}"
+	ProjectSection(SolutionItems) = preProject
+		KR2_Gorshenevv\Customer.cs = KR2_Gorshenevv\Customer.cs
+		KR2_Gorshenevv\Employee.cs = KR2_Gorshenevv\Employee.cs
+		KR2_Gorshenevv\Model1.Context.cs = KR2_Gorshenevv\Model1.Context.cs
+		KR2_Gorshenevv\Model1.Context.tt = KR2_Gorshenevv\Model1.Context.tt
+		KR2_Gorshenevv\Model1.cs = KR2_Gorshenevv\Model1.cs
+		KR2_Gorshenevv\Model1.Designer.cs = KR2_Gorshenevv\Model1.Designer.cs
+		KR2_Gorshenevv\Model1.edmx = KR2_Gorshenevv\Model1.edmx
+		KR2_Gorshenevv\Model1.edmx.diagram = KR2_Gorshenevv\Model1.edmx.diagram
+		KR2_Gorshenevv\Model1.tt = KR2_Gorshenevv\Model1.tt
+		KR2_Gorshenevv\Order.cs = KR2_Gorshenevv\Order.cs
+		KR2_Gorshenevv\Otdel.cs = KR2_Gorshenevv\Otdel.cs
+		KR2_Gorshenevv\Platform.cs = KR2_Gorshenevv\Platform.cs
+		KR2_Gorshenevv\Role.cs = KR2_Gorshenevv\Role.cs
+		KR2_Gorshenevv\sysdiagrams.cs = KR2_Gorshenevv\sysdiagrams.cs
+		KR2_Gorshenevv\Task.cs = KR2_Gorshenevv\Task.cs
+		KR2_Gorshenevv\User.cs = KR2_Gorshenevv\User.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B50AC72-00EC-4B52-9F5E-0BF9F6B47E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B50AC72-00EC-4B52-9F5E-0BF9F6B47E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B50AC72-00EC-4B52-9F5E-0BF9F6B47E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B50AC72-00EC-4B52-9F5E-0BF9F6B47E43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D326A530-8CCF-43FA-9883-0F02C8E51D80}
+	EndGlobalSection
+EndGlobal
